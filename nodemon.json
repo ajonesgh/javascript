@@ -1,0 +1,15 @@
+{
+  "env": {
+    "NODE_ENV": "development"
+  },
+  "nodeArgs": ["--debug"],
+  "ext": "js json",
+  "watch": ["server/*.js", "server/api/*.js", "server/api/service/*.js"],
+  "legacyWatch": true,
+  "verbose": true,
+  "ignore" : [
+    "node_module/",
+    "config/default.json",
+    "config/production.json"
+  ]
+}
