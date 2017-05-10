@@ -1,1 +1,5 @@
 # javascript
+
+```javascript
+alart("help")
+```
